@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lukuki\\Desktop\\workshop 2\\SimulatedDevice\\SimulatedDevice.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lukuki\\Desktop\\workshop 2\\SimulatedDevice\\SimulatedDevice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lukuki\\Desktop\\workshop 2\\SimulatedDevice\\SimulatedDevice.csproj",
+        "projectName": "SimulatedDevice",
+        "projectPath": "C:\\Users\\Lukuki\\Desktop\\workshop 2\\SimulatedDevice\\SimulatedDevice.csproj",
+        "packagesPath": "C:\\Users\\Lukuki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lukuki\\Desktop\\workshop 2\\SimulatedDevice\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lukuki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.Devices.Client": {
+              "target": "Package",
+              "version": "[1.40.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
